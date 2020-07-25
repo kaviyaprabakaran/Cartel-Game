@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cartel.css">
+</head>
+
+<body onload="myname()">
+    <div class="containers">
+        <h1 class="header">CARTEL</h1>
+        <h2 class="header">Lets Play</h2>
+
+        <div class="container" id="main">
+
+            <div class="box" id="box1">+750</div>
+            <div class="box" id="box2">-500</div>
+            <div class="box" id="box3">700</div>
+            <div class="box" id="box4">650</div>
+            <div class="box" id="box5">-1000</div>
+            <div class="box" id="box6">600</div>
+            <div class="box" id="box7">550</div>
+            <div class="box" id="box8">-350</div>
+            <div class="box" id="box9">450</div>
+            <div class="box" id="box10" style="visibility: hidden;"></div>
+            <div class="box" id="box11" style="visibility: hidden;"></div>
+            <div class="box" id="box12" style="visibility: hidden;"></div>
+            <div class="box" id="box13" style="visibility: hidden;"></div>
+            <div class="box" id="box14" style="visibility: hidden;"></div>
+            <div class="box" id="box15" style="visibility: hidden;"></div>
+            <div class="box" id="box16">750</div>
+            <div class="box" id="box17">300</div>
+            <div class="box" id="box18" style="visibility: hidden;"></div>
+            <div class="box" id="box19" style="visibility: hidden;"></div>
+            <div class="box" id="box20" style="visibility: hidden;"></div>
+            <div class="box" id="box21" style="visibility: hidden;"></div>
+            <div class="box" id="box22" style="visibility: hidden;"></div>
+            <div class="box" id="box23" style="visibility: hidden;"></div>
+            <div class="box" id="box24">-1500</div>
+            <div class="box" id="box25">250</div>
+            <div class="box" id="box26" style="visibility: hidden;"></div>
+            <div class="box" id="box27" style="visibility: hidden;"></div>
+            <div class="box" id="box28" style="visibility: hidden;"></div>
+            <div class="box" id="box29" style="visibility: hidden;"></div>
+            <div class="box" id="box30" style="visibility: hidden;"></div>
+            <div class="box" id="box31" style="visibility: hidden;"></div>
+            <div class="box" id="box32">800</div>
+            <div class="box" id="box33">-100</div>
+            <div class="box" id="box34" style="visibility: hidden;"></div>
+            <div class="box" id="box35" style="visibility: hidden;"></div>
+            <div class="box" id="box36" style="visibility: hidden;"></div>
+            <div class="box" id="box37" style="visibility: hidden;"></div>
+            <div class="box" id="box38" style="visibility: hidden;"></div>
+            <div class="box" id="box39" style="visibility: hidden;"></div>
+            <div class="box" id="box40">850</div>
+            <div class="box" id="box41">-50</div>
+            <div class="box" id="box42" style="visibility: hidden;"></div>
+            <div class="box" id="box43" style="visibility: hidden;"></div>
+            <div class="box" id="box44" style="visibility: hidden;"></div>
+            <div class="box" id="box45" style="visibility: hidden;"></div>
+            <div class="box" id="box46" style="visibility: hidden;"></div>
+            <div class="box" id="box47" style="visibility: hidden;"></div>
+            <div class="box" id="box48">900</div>
+            <div class="box" id="box49">100</div>
+            <div class="box" id="box50" style="visibility: hidden;"></div>
+            <div class="box" id="box51" style="visibility: hidden;"></div>
+            <div class="box" id="box52" style="visibility: hidden;"></div>
+            <div class="box" id="box53" style="visibility: hidden;"></div>
+            <div class="box" id="box54" style="visibility: hidden;"></div>
+            <div class="box" id="box55" style="visibility: hidden;"></div>
+            <div class="box" id="box56">1050</div>
+            <div class="box" id="box57">Go</div>
+            <div class="box" id="box58">2500</div>
+            <div class="box" id="box59">2250</div>
+            <div class="box" id="box60">2000</div>
+            <div class="box" id="box61">-1750</div>
+            <div class="box" id="box62">1500</div>
+            <div class="box" id="box63">1250</div>
+            <div class="box" id="box64">+1000</div>
+        </div>
+
+
+    </div>
+    <img src="./assets/dice.png" alt="Dice" id="imgdice">
+
+
+
+
+    <div class="maingrid">
+        <div class="grid-container">
+
+            <div class="item1" style="color: red;">
+                <span><input type="submit" value="Go to Play" id="btn1"> </span>
+            </div>
+            <div class="sc">
+                <h2 style="color: darkgreen;">Score Board</h2>
+                <h3 class="name1" style="color: rgb(248, 106, 41);">Player 1</h3>
+                <h1 class="item3" style="color:  rgb(248, 106, 41);">1000</h1>
+                <h3 class="name2" style="color: rgb(28, 197, 240);">Player 2</h3>
+                <h1 class="item4" style="color: rgb(28, 197, 240);">1000</h1>
+            </div>
+        </div>
+
+        <div class="dice">
+
+        </div>
+
+        <div class="result" style="visibility: hidden;">
+            <!-- <img src="./assets/congrats.gif" alt="" srcset=""> -->
+            <h3 class="name4">Player 1 win</h3>
+            <input class="refresh" type="button" value="Try Again !!!" onclick="history.go(0)" />
+
+
+        </div>
+
+    </div>
+    <script src="/cartel.js"></script>
+
+
+    <a class="button" href="#popup1">Let me Pop up</a>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Here i am</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <img src="./assets/congrats.gif" alt="" srcset="">
+                Thank to pop me out of that button,s but now i'm done so you can close this window.
+                <div class="item3" style="color: red;">1000</div>
+                <h id="h1"></h>
+                <div class="item4" style="color: blue;">1000</div>
+                <h id="h2"></h>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
